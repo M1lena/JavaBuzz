@@ -21,4 +21,20 @@ describe('Javabuzz', function() {
 
   });
 
+  describe('it knows when number is', function() {
+
+    it('divisible by five', function() {
+      expect(javabuzz.isDivisibleByFive(5)).toBe(true);
+    });
+
+  });
+
+  describe('it knows when number is NOT', function() {
+
+    it('divisible by five', function() {
+      expect(javabuzz.isDivisibleByFive(1)).toBe(false);
+    });
+
+  });
+
 });
