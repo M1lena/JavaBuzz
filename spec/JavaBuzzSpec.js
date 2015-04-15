@@ -69,4 +69,12 @@ describe('Javabuzz', function() {
 
   });
 
+  describe('when playing says "JavaBuzz"', function() {
+
+    it('when divisible by fifteen', function() {
+      expect(javabuzz.says(15)).toEqual('JavaBuzz');
+    });
+
+  });
+
 });
