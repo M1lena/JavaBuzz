@@ -53,4 +53,12 @@ describe('Javabuzz', function() {
 
   });
 
+    describe('when playing says "Java"', function() {
+
+    it('when divisible by three', function() {
+      expect(javabuzz.says(3)).toEqual('Java');
+    });
+
+  });
+
 });
