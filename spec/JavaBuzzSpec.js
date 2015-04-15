@@ -37,4 +37,20 @@ describe('Javabuzz', function() {
 
   });
 
+  describe('it knows when number is', function() {
+
+    it('divisible by fifteen', function() {
+      expect(javabuzz.isDivisibleByFifteen(15)).toBe(true);
+    });
+
+  });
+
+  describe('it knows when number is NOT', function () {
+
+    it('divisible by fifteen', function() {
+      expect(javabuzz.isDivisibleByFifteen(1)).toBe(false);
+    });
+
+  });
+
 });
